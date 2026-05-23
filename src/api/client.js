@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE = 'http://localhost:3000/api';
+const BASE = 'https://cleteaats-backend-production.up.railway.app/api';
 
 const client = axios.create({ baseURL: BASE });
 
