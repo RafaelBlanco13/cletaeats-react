@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE = 'cletaeats-backend-production-984f.up.railway.app';
+const BASE = 'https://cletaeats-backend-production-984f.up.railway.app/api';
 
 const client = axios.create({ baseURL: BASE });
 
